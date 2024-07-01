@@ -23,7 +23,7 @@ public class Distribuidoras {
 
     @Column(name="fundacion")
     @NotNull
-    private String fundacion;
+    private Integer fundacion;
 
     @Column(name="web")
     private String web;
